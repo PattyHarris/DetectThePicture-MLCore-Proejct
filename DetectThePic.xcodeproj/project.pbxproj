@@ -13,6 +13,7 @@
 		18C8B3701F4CDC9F005AE0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C8B36F1F4CDC9F005AE0A2 /* Assets.xcassets */; };
 		18C8B3731F4CDC9F005AE0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C8B3711F4CDC9F005AE0A2 /* LaunchScreen.storyboard */; };
 		18C8B37D1F4CF21F005AE0A2 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18C8B37C1F4CF063005AE0A2 /* Resnet50.mlmodel */; };
+		18C8B37F1F4E56B5005AE0A2 /* ObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8B37E1F4E56B5005AE0A2 /* ObservationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		18C8B3741F4CDC9F005AE0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C8B37A1F4CDCB2005AE0A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18C8B37C1F4CF063005AE0A2 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		18C8B37E1F4E56B5005AE0A2 /* ObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				18C8B3681F4CDC9F005AE0A2 /* AppDelegate.swift */,
 				18C8B37C1F4CF063005AE0A2 /* Resnet50.mlmodel */,
 				18C8B36A1F4CDC9F005AE0A2 /* ViewController.swift */,
+				18C8B37E1F4E56B5005AE0A2 /* ObservationTableViewCell.swift */,
 				18C8B36C1F4CDC9F005AE0A2 /* Main.storyboard */,
 				18C8B36F1F4CDC9F005AE0A2 /* Assets.xcassets */,
 				18C8B3711F4CDC9F005AE0A2 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C8B37F1F4E56B5005AE0A2 /* ObservationTableViewCell.swift in Sources */,
 				18C8B36B1F4CDC9F005AE0A2 /* ViewController.swift in Sources */,
 				18C8B37D1F4CF21F005AE0A2 /* Resnet50.mlmodel in Sources */,
 				18C8B3691F4CDC9F005AE0A2 /* AppDelegate.swift in Sources */,
